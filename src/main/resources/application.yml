@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring.demo.address
+
+app:
+  profile: default
+
+server:
+  port: 8081
+  servlet:
+    context-Path: /springboot-demo/onboard/api/addressproject
+
+management:
+  server:
+    address: 127.0.0.1
+    port: 9092
+    security:
+      enabled: false
